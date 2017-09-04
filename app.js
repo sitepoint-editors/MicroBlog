@@ -1,6 +1,6 @@
 var http = require('http');
 var message = require('./message/message');
-var BlogRoute = require('./route/BlogRoute');
+var BlogRoute = require('./route/blogRoute');
 
 var port = process.env.port || 1337;
 
